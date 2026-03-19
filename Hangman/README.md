@@ -72,3 +72,15 @@ Every redraw calls both `Console.Clear()` and `Console.WriteLine("\x1b[3J")` tog
 scrollback buffer intact, meaning the player could scroll up and see previous game states.
 `\x1b[3J` is an ANSI escape code that clears the scrollback buffer as well, ensuring
 the terminal is completely clean on every redraw with no history leaking through.
+
+## AI Disclosure
+This project was written by Daniel Henriksen. Claude (AI by Anthropic) was used as a
+collaborative tool throughout the process.
+
+My workflow was to write a functional end result independently, then use Claude to:
+- Identify improvements I had not thought of myself
+- Organize and write XML `<summary>` comments across all files
+- Discuss and reason through design decisions
+
+All core logic, structure, and creative decisions — including the ASCII art — are my own work.
+Claude acted as a reviewer and documentation assistant, not as a code generator.
