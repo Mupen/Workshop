@@ -37,5 +37,5 @@ My workflow was to write a functional end result independently, then use Claude 
 - Organize and write XML `<summary>` comments across all files
 - Discuss and reason through design decisions
 
-All core logic, structure, and creative decisions — including the ASCII art — are my own work.
+All core logic, structure, and creative decisions are my own work.
 Claude acted as a reviewer and documentation assistant, not as a code generator.
