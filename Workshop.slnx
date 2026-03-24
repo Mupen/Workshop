@@ -1,3 +1,9 @@
 <Solution>
-  <Project Path="Hangman/Hangman.csproj" />
+  <Folder Name="/Calculator/">
+    <Project Path="Calculator/Calculator.Core/Calculator.Core.csproj" />
+    <Project Path="Calculator/Calculator.Tests/Calculator.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Hangman/">
+    <Project Path="Hangman/Hangman.csproj" />
+  </Folder>
 </Solution>
