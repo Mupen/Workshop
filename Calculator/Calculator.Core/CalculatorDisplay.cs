@@ -24,7 +24,7 @@
         /// <summary>
         /// Adds a new calculation result to history and prints it.
         /// </summary>
-        public void UpdateHistory(string expr, string result)
+        public void UpdateHistoryCommand(string expr, string result)
         {
             string line = $"{expr} = {result}";
             history.Add(line);

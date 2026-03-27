@@ -57,7 +57,7 @@ namespace Calculator.Core
                             double result = _calculation.CalculateExpression(input);
 
                             // Display result and store history
-                            _display.UpdateHistory(input, result.ToString("G15", CultureInfo.InvariantCulture));
+                            _display.UpdateHistoryCommand(input, result.ToString("G15", CultureInfo.InvariantCulture));
                         }
                         catch (Exception ex)
                         {
