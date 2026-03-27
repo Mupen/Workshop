@@ -7,4 +7,12 @@
   <Folder Name="/Workshops/Hangman/">
     <Project Path="Workshops/Hangman/Hangman.csproj" />
   </Folder>
+
+  <Folder Name="/Projects/CleanBookingV1/">
+    <Project Path="Projects/CleanBookingV1/Api/CleanBookingV1.Api/CleanBookingV1.Api.csproj" />
+    <Project Path="Projects/CleanBookingV1/Application/CleanBookingV1.Application/CleanBookingV1.Application.csproj" />
+    <Project Path="Projects/CleanBookingV1/Domain/CleanBookingV1.Domain/CleanBookingV1.Domain.csproj" />
+    <Project Path="Projects/CleanBookingV1/Infrastructure/CleanBookingV1.Infrastructure/CleanBookingV1.Infrastructure.csproj" />
+    <Project Path="Projects/CleanBookingV1/UnitTests/CleanBookingV1.UnitTests/CleanBookingV1.UnitTests.csproj" />
+  </Folder>
 </Solution>
