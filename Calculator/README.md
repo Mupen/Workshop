@@ -1,7 +1,7 @@
 # Calculator
 
 ## Introduction
-A console-based calculator application built with C# using .NET 10.0. The project demonstrates clean code architecture with separated concerns: a calculation engine, user interface menu, and comprehensive unit tests using xUnit.
+A console-based calculator application built with C# using .NET 10.0. The project demonstrates code with separated concerns: a calculation, user interface menu, and comprehensive unit tests using xUnit.
 
 ---
 
