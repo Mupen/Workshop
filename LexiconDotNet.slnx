@@ -16,6 +16,14 @@
     <Project Path="Workshops/SalesSystem/SalesSystem.Infrastructure/SalesSystem.Infrastructure.csproj" />
     <Project Path="Workshops/SalesSystem/SalesSystem.UnitTests/SalesSystem.UnitTests.csproj" />
   </Folder>
+
+  <Folder Name="/Workshops/ShoppingCart/">
+    <Project Path="Workshops/ShoppingCart/ShoppingCart.Api/ShoppingCart.Api.csproj" />
+    <Project Path="Workshops/ShoppingCart/ShoppingCart.Application/ShoppingCart.Application.csproj" />
+    <Project Path="Workshops/ShoppingCart/ShoppingCart.Domain/ShoppingCart.Domain.csproj" />
+    <Project Path="Workshops/ShoppingCart/ShoppingCart.Infrastructure/ShoppingCart.Infrastructure.csproj" />
+    <Project Path="Workshops/ShoppingCart/ShoppingCart.UnitTests/ShoppingCart.UnitTests.csproj" />
+  </Folder>
   <Folder Name="/Projects/" />
 
   <Folder Name="/Projects/CleanBookingV1/">

@@ -1,0 +1,17 @@
+services:
+  shoppingcart-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: shoppingcart-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__ShoppingCart: Data Source=/app/Data/shopping-cart.db
+    ports:
+      - "5088:8080"
+    volumes:
+      - shoppingcart-data:/app/Data
+
+volumes:
+  shoppingcart-data:

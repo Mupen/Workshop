@@ -1,0 +1,16 @@
+@ShoppingCart.Api_HostAddress = http://localhost:5088
+
+GET {{ShoppingCart.Api_HostAddress}}/api/products
+Accept: application/json
+
+###
+
+GET {{ShoppingCart.Api_HostAddress}}/api/product-brands
+Accept: application/json
+
+###
+
+GET {{ShoppingCart.Api_HostAddress}}/api/product-categories
+Accept: application/json
+
+###
